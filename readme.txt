@@ -15,3 +15,6 @@ Make Art section
 --Create pop out poster on hover
 
 Make Hall Of Fame section
+
+Improve lore section
+
