@@ -1,5 +1,7 @@
 **INCOMPLETE**
 
+Created by lilneel
+
 A project to display features of HL2 Union lore and artwork made by the community.
 
 // TO-DO //
