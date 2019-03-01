@@ -19,7 +19,8 @@ body {
 }
 
 .main-nav li {
-	float: left;
+	float: right;
+	margin-right: 20px;
 	}
 
 .main-nav li a {
@@ -33,9 +34,10 @@ body {
 }
 
 .main-nav a:hover {
+	transition-duration: 200ms;
 	background-color: black;
 	color: white;
-	width: 50px;
+	width: 120px;
 }
 
 
@@ -51,19 +53,33 @@ body {
 
 .top-img {
 	width: 100%;
+	min-height: 755px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(https://i.imgur.com/lG7bktx.jpg);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border: 2px solid white;
+  width: 800px;
+  height: 200px;
+  text-align: center;
 }
 
 .logo {
 	float: left;
-	width: 60px;
+	width: 135px;
 	height: 60px;
-	margin-left: 30px;
+	margin-left: 90px;
 }
 
 .content {
 	height: 2020px;
 	width: 100%;
-	margin-top: -5px;
+	margin-top: -5px; 
 	background: grey;
 }
 
@@ -80,3 +96,42 @@ body {
 	color: white;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+
+
+#art {
+	background-color: white;
+ }
+
+.header1 {
+	text-align: center;
+	font-size: 25px;
+	border-bottom: 1px solid black;
+}
+
+.wrap {
+	padding: 30px;
+}
+
+.container {
+	display: block;
+	margin-right: auto;
+	margin-left: 250px;
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 50px;
+	width: 200px;
+	height: 350px;
+	font-size: 12px;
+	background-color: white;
+}
+
+.container:hover {
+	box-shadow: 5px 5px;
+	width: 220px;
+	font-size: 15px;
+	transition-duration: 500ms;
+}
+
+.poster-a {
+	width: 100%;
+} 
