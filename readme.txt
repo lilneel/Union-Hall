@@ -9,6 +9,8 @@ Finish Header
 --Create welcome entries - TBD
 --Create Nebulous.cloud lettering over darkened image
 --Change image
+--Stretch image to cover entire front
+--More footer
 
 Make Art section 
 --Align poster - Complete
@@ -19,5 +21,5 @@ Make Art section
 
 Make Hall Of Fame section
 
-Improve lore section
-
+Improve lore section -- TBD
+Remove lore section
