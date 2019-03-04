@@ -63,10 +63,18 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  border: 2px solid white;
+  border: 3px solid white;
   width: 800px;
   height: 200px;
-  text-align: center;
+}
+
+.centered-h {
+	text-align: center;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 120px;
 }
 
 .logo {
@@ -76,43 +84,11 @@ body {
 	margin-left: 90px;
 }
 
-.content {
-	height: 2020px;
-	width: 100%;
-	margin-top: -5px; 
-	background: grey;
-}
-
-.lore-img {
-	display: block;
-	padding: 10px 0;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: grey;
-}
-
-.lore-c {
-	text-align: center;
-	color: white;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-
-#art {
-	background-color: white;
- }
-
-.header1 {
-	text-align: center;
-	font-size: 25px;
-	border-bottom: 1px solid black;
-}
-
-.wrap {
+.card-wrapper {
 	padding: 30px;
 }
 
-.container {
+.card-container {
 	display: block;
 	margin-right: auto;
 	margin-left: 250px;
@@ -125,7 +101,7 @@ body {
 	background-color: white;
 }
 
-.container:hover {
+.card-container:hover {
 	box-shadow: 5px 5px;
 	width: 220px;
 	font-size: 15px;
